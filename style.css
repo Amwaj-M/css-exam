@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    height: 60px;
+    color: white;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 50vh;
+}
+.header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.list-nav{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 10px 5px 5px;
+    align-items: center;
+    font-size: large;
+    gap: 10px;
+}
+.header-but{
+    width: 80%;
+}
+button{
+    background-color: #234EED;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+}
+.header-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    /* border: 1px solid red; */
+
+}
+.box-purple{
+    position:relative;
+    right: 4%;
+    align-self: flex-end;
+    width: 50%;
+    height: 70%;
+    background-color: #DF2BCD;
+}
+.box-blue1{
+position: absolute;
+top:12%;
+right: 30%;
+width:9%;
+height: 10%;
+background-color: #234EED;
+}
+.box-black{
+    position: absolute;
+    top:30%;
+    right:1%;
+    width:15%;
+    height: 35%;
+    background-color: black;
+}
+.box-blue2{
+    position: absolute;
+    top:45%;
+    right: 10%;
+    width:9%;
+    height: 10%;
+    background-color: #234EED;
+    }
+
+footer{
+    margin-top: 5%;
+    padding: 10px;
+    height: 30vh;
+    background-color: black;
+}
+.list-footer{
+    list-style-type: none;
+    color: white;
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    text-align: center;
+    gap:10px ;
+}
+
+
+
+
